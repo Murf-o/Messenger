@@ -1,0 +1,13 @@
+#root{
+	-fx-background-color: steelblue;
+}
+#txt1{
+	-fx-font-size: 17;
+	-fx-font-family: verdana;
+	-fx-fill: lightsalmon;
+	-fx-stroke: linear-gradient(yellow, aquamarine);
+	-fx-stroke-width: 1;
+}
+.text{
+	-fx-fill: blue;
+}

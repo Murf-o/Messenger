@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id = "root" fx:controller="MainController">
+	<center>
+				<HBox Alignment="CENTER" spacing="30">
+					<Button fx:id= "serverB" text = "Server" onAction = "#createServer" prefHeight="35" prefWidth="100" />
+					<Button fx:id = "clientB" text = "Client" onAction = "#createClient" prefHeight="35" prefWidth="100" />
+				</HBox>
+	</center>
+</BorderPane>

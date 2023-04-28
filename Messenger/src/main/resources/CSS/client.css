@@ -1,0 +1,32 @@
+#root{
+	-fx-background-color: lightgreen;
+}
+
+.button{
+	-fx-font-weight: bold;
+	-fx-background-color: lightskyblue;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+	-fx-font-size: 15;
+	-fx-text-fill: black;
+}
+.text{
+	-fx-fill: OLIVE;
+}
+#cLTxt{
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 14;
+}
+#clientSpecTxt{
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 12;
+}
+
+#mTxt{
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 12;
+    -fx-font-family: verdana;
+	-fx-fill: linear-gradient(steelblue, teal);
+}

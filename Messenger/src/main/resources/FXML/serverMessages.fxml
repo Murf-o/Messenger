@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id = "root" fx:controller="ServerController">
+	<center>
+		<VBox Alignment="CENTER" spacing="30">
+			<Text fx:id="txt1" text="Client Messages"/>
+			<ListView fx:id="list" maxWidth="500" maxHeight="400"/>
+		</VBox>
+	</center>
+
+</BorderPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id = "root" fx:controller="ClientController">
+	<center>
+		<VBox fx:id="vb" Alignment="CENTER" spacing="15">
+			<HBox Alignment="CENTER" spacing="15">
+				<Text fx:id="mTxt" text="Message: "/>
+				<TextField fx:id="tf1" prefWidth="300" maxWidth="300"/>
+			</HBox>
+			<Button fx:id="sendB" text="send" onAction="#sendMessage" prefWidth = "100"/>
+			<ListView fx:id="list" prefWidth="600" maxWidth="600" prefHeight = "500" maxHeight = "500"/>
+		</VBox>
+	</center>
+	<left>
+			<VBox fx:id="leftVB" Alignment="CENTER" spacing="15">
+					<Text fx:id="cLTxt" text="List of Clients Connected"/>
+					<ListView fx:id="cList" maxWidth="200" maxHeight="350"/>
+			</VBox>
+	</left>
+	<right>
+			<VBox Alignment="CENTER" spacing="15">
+				<Text fx:id="clientSpecTxt" text="clients to send a message to (separate using a space)"/>
+				<TextField fx:id="tfCspec" prefWidth="70"/>
+			</VBox>
+	</right>
+</BorderPane>
